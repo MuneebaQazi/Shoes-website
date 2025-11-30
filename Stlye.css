@@ -1,0 +1,112 @@
+.main{
+    display: flex;
+    background-color: #f5f5f5b5;
+}
+.logo>img{
+    height: 70px;
+    width: 150px;
+}
+.span{
+    font-weight: bolder;
+    padding-top: 10px;
+}
+.text{
+    color: orange;
+}
+.link{
+    margin-left: 100px;
+}
+a{
+    margin-left: 40px;
+    padding-top: 10px;
+}
+.images{
+    display: flex;
+}
+.img1{
+    display: flex;
+}
+img{
+    width: 100vh;
+    height: 100vh;
+
+}
+.heading{
+    padding: 20px;
+    margin: 0;
+    font-family: 'Bebas Neue';
+    font-size: 80px;
+}
+.head{
+    color: rgba(255, 140, 0, 0.859);
+}
+.head2{
+    color: rgb(14, 14, 50);
+}
+.para{
+    font-size: medium;
+}
+.shoping{
+border-radius: 5px;
+padding: 10px;
+color: white;
+background-color: darkblue;
+}
+.div3{
+    display: flex;
+}
+.div1{
+    background-color: rgba(237, 236, 236, 0.96);
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    flex-direction: column;
+}
+.src{
+    width: 60vh;
+    height: 80vh;
+}
+.div2{
+    background-color: rgba(237, 236, 236, 0.96);
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+h2{
+    font-size: 50px;
+    color: rgb(29, 29, 69);
+}
+.buton{
+    color: white;
+    background-color: rgb(26, 26, 209);
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 100px;
+}
+.formal{
+    display: flex;
+    margin-top: 50px;
+
+}
+.div6{
+    background-color: rgba(237, 236, 236, 0.96);
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+    padding-top: 20px;
+    margin-left: 20px;
+
+}
+.you{
+    padding-top: 100px;
+}
+.aaa{
+    width: 60vh;
+    height: 80vh;
+    background-image: none;
+    padding-top: 10px;
+
+}
