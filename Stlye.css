@@ -16,12 +16,17 @@
 .link{
     margin-left: 100px;
 }
-a{
+.link a{
+    text-decoration: none;
+    color: black;
     margin-left: 40px;
     padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
 .images{
     display: flex;
+    width: 100%;
 }
 .img1{
     display: flex;
@@ -54,13 +59,51 @@ background-color: darkblue;
 }
 .div3{
     display: flex;
+    width: 100%;
+    background-color: #c8cad7;
+    justify-content: center;
+    gap: 10px;
+}
+.casual{
+    display: flex;
+    background-color: #fff;
+}
+.Num{
+    display: flex;
+    background-color: #fff;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.btn{
+    columns: none ;
+    background-color: none;
+     color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    margin-left: 90px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+.paragrafh{
+    font-size: 30px;
+    color: rgb(202, 81, 37);
+    display: flex;
+    margin-left: 10px;
+}
+.divv{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
 }
 .div1{
-    background-color: rgba(237, 236, 236, 0.96);
+    background-color: #fff;
     width: 300px;
     height: 350px;
     border-radius: 10px;
-    flex-direction: column;
+    display: flex;
 }
 .src{
     width: 60vh;
@@ -79,17 +122,17 @@ h2{
     font-size: 50px;
     color: rgb(29, 29, 69);
 }
-.buton{
+/* .buton{
     color: white;
     background-color: rgb(26, 26, 209);
-    padding: 10px;
     border-radius: 5px;
     margin-left: 100px;
-}
+} */
 .formal{
+    background-color:  #c8cad7;
     display: flex;
     margin-top: 50px;
-
+   color: rgb(33, 37, 41)
 }
 .div6{
     background-color: rgba(237, 236, 236, 0.96);
@@ -101,7 +144,7 @@ h2{
 
 }
 .you{
-    padding-top: 100px;
+    padding-top: 200px;
 }
 .aaa{
     width: 60vh;
@@ -110,3 +153,23 @@ h2{
     padding-top: 10px;
 
 }
+h2{
+    background-color: #c8cad7;
+}
+h3{
+    color: rgb(184, 55, 55);
+    font-size: 30px;
+}
+    
+
+
+
+/* @media screen and (max-width:480px) {
+    .link a{
+        display: none;
+    }
+    .logo>img{
+    height: 40px;
+    width:  50px;
+    }
+} */
